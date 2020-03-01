@@ -6,7 +6,7 @@ def register(data):
     if len(data) == 6:
         date, time, store, item, cost, payment = data
         print("{0}\t{1}".format(item, cost))
-        # Or, with slightly more readability in the output:
+        # Or, with slightly more readability in the output,
         locale.setlocale(locale.LC_ALL, locale='en_US')
         print(f'\nItem: {item}\nCost: {locale.currency(cost, grouping=True)}')
 
