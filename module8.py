@@ -111,7 +111,7 @@ def repeat_n_times(ports, n):
 # Argument "n" needs to include the ones that aren't printed out in the function (count of rows - header = 1 cycle)
 cycle_n_times(initialize(), 42)
 
-print(f'{"-"*100}\n')
+print(f'{"-" * 100}\n')
 
 # Argument "n" is merely the number of iterations, unlike in cycle_n_times
 repeat_n_times(initialize(), 1)
